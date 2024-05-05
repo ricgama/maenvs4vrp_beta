@@ -20,7 +20,7 @@ Exploration chalenges
     :target: https://colab.research.google.com/github/ricgama/maenvs4vrp_beta/blob/main/maenvs4vrp/notebooks/1.0.0_maenvs4vrp_exploration_and_challenges.ipynb
 
 .. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/ricgama/maenvs4vrp_beta/main?labpath=https%3A%2F%2Fgithub.com%2Fricgama%2Fmaenvs4vrp_beta%2Fblob%2Fmain%2Fmaenvs4vrp%2Fnotebooks%2F1.0.0_maenvs4vrp_exploration_and_challenges.ipynb
+ :target: https://mybinder.org/v2/gh/ricgama/maenvs4vrp_beta/main?urlpath=https%3A%2F%2Fgithub.com%2Fricgama%2Fmaenvs4vrp_beta%2Fblob%2Fmain%2Fmaenvs4vrp%2Fnotebooks%2F1.0.0_maenvs4vrp_exploration_and_challenges.ipynb
 
 Installation
 ============
