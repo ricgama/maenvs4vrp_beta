@@ -247,9 +247,6 @@ class Environment(AECEnv):
                                 'cur_ttime': self.td_state['agents']['cur_ttime'].gather(1, self.td_state['cur_agent_idx']).clone(),
                                 'cum_ttime': self.td_state['agents']['cum_ttime'].gather(1, self.td_state['cur_agent_idx']).clone(),
                                 }, batch_size=self.td_state.batch_size, device=self.device)
-        
-        self.td_state['agents']['active_agents_mask'].scatter_(1,  self.td_state['cur_agent_idx'], torch.ones((*self.batch_size, 1), dtype=torch.bool, device=self.device))
-
 
     def step(self, td: TensorDict) -> TensorDict:
         """Environment step.
